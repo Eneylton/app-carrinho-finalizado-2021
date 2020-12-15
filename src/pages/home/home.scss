@@ -1,3 +1,48 @@
 page-home {
+    #notification-button {            
+        position: relative;
+        width: 42px;
+        top:1px;
+        right: 1px;
+        overflow: visible!important;
+    }
 
+
+#notifications-badge {
+        background-color: red;
+        position: absolute;
+        top: -7px;
+        right: -7px;
+        border-radius: 100%;
+    }
+
+    // .toolbar-background-md {
+    //     border-color: #031041;
+    //     background-image: url(../../assets/imgs/01.jpg) !important;
+    //     background-repeat: no-repeat !important;
+    //     background-size: 800px 200px !important;
+    // }
+
+    .toolbar-background-md {
+        background:linear-gradient(90deg, #8c36a5 0%, #664bdc 100%) !important;
+        }
+
+    .texto01{
+
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .texto02{
+
+        font-size: 13px;
+        font-weight: bold;
+        color: crimson;
+    }
+
+ 
+
+    .icon{
+        color: rgb(237, 253, 5);
+    }
 }
